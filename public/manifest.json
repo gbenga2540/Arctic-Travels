@@ -1,0 +1,15 @@
+{
+  "short_name": "Arctic Travels",
+  "name": "Arctic Travels Website",
+  "icons": [
+    {
+      "src": "arctic-logo.ico",
+      "sizes": "80x80",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
