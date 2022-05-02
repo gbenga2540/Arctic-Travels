@@ -1,0 +1,38 @@
+.row5_main {
+    max-width: 100vw;
+    min-height: 52vw;
+    background-color: red;
+    font-family: poppinsregular, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.row5_main h1 {
+    font-size: 60px;
+    max-width: 70%;
+    transform: translateY(-50px);
+    max-height: 100px;
+}
+
+.row5_main button {
+    margin-top: 30px;
+    color: #fff;
+    background-color: #3E86F5;
+    width: 245px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    transition: all 150ms ease-in-out;
+}
+
+.row5_main button:hover {
+    background-color: #fff;
+    color: #3E86F5;
+    transform: scale(1.035);
+}

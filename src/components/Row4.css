@@ -1,0 +1,28 @@
+.row4_main {
+    max-width: 100vw;
+    min-height: 132vw;
+    background-color: rgb(255, 255, 255);
+    font-family: poppinsregular, sans-serif;
+    color: black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 70px 100px 100px 100px;
+}
+
+.row4_col_1 {
+    background-color: aqua;
+    margin-right: 5%; 
+}
+.row4_col_1 > h1 {
+    max-width: 90%;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.r0w4_col1_img {
+    background-color: purple;
+}
+
+.row4_col_2 {
+    background-color: coral;
+}

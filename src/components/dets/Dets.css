@@ -1,0 +1,43 @@
+.dets_main {
+    min-width: 150px;
+    max-height: 100%;
+    flex-grow: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: poppinsregular, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.dets_main_top {
+    display: flex;
+    color: #929191;
+    font-size: 15px;
+}
+.dets_main_top > p {
+    transform: translateY(10px);
+}
+.dets_main_top > img {
+    transform: translateY(10px);
+    margin-right: 10px;
+}
+
+.dets_main_bottom {
+    display: flex;
+    letter-spacing: 0px;
+}
+
+.dets_main_bottom > p {
+    margin-right: 10px;
+    font-size: 15px;
+    transform: translateY(-10px);
+    color: black;
+    font-weight: 700;
+}
+
+.dets_main_bottom > img {
+    transform: translateY(-10px);
+}

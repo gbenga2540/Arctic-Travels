@@ -1,0 +1,11 @@
+.row6_main {
+    max-width: 100vw;
+    min-height: 35vw;
+    background-color: salmon;
+    font-family: poppinsregular, sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+

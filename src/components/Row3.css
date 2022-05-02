@@ -1,0 +1,10 @@
+.row3_main {
+    max-width: 100vw;
+    min-height: 71vw;
+    background-color: rosybrown;
+    font-family: poppinsregular, sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
