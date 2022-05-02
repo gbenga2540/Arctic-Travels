@@ -1,14 +1,15 @@
 .row5_main {
     max-width: 100vw;
     min-height: 52vw;
-    background-color: red;
     font-family: poppinsregular, sans-serif;
     color: #fff;
     display: flex;
     flex-direction: column;
     padding-left: 100px;
     justify-content: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images//attractive-snowboarder.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .row5_main h1 {

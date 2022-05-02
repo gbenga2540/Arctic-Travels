@@ -1,0 +1,23 @@
+.regions_main {
+    min-width: 33.33%;
+    min-height: 100%;
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.regions_text {
+    position: absolute;
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+    margin: 0;
+    color: white;
+    font-size: 65px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
