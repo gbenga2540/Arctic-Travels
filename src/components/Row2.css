@@ -8,6 +8,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('../images/map.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .row2_main > h2 {
