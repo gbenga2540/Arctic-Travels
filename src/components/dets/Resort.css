@@ -42,3 +42,52 @@
     color: #3E86F5;
     transform: scale(1.035);
 }
+
+@media only screen and (max-width:1200px) {
+    .resort_main {
+        aspect-ratio: 17/25;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 7px;
+        margin-top: 5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .resort_main > h1 {
+        max-height: 10px;
+        margin-left: 5%;
+        font-size: 8px;
+        max-width: 80px;
+    }
+    
+    .resort_main > h2 {
+        margin-top: 7%;
+        margin-left: 5%;
+        color: grey;
+        font-size: 7px;
+        margin-bottom: 3%;
+    }
+    
+    .resort_main > button {
+        min-height: 10%;
+        margin: 5% 5% 14% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #3E86F5;
+        font-weight: 400;
+        font-size: 8px;
+        border-radius: 6px;
+        border: none;
+        transition: all 150ms ease-in-out;
+    }
+    .resort_main > button:hover {
+        background-color: #fff;
+        color: #3E86F5;
+        transform: scale(1.035);
+    }    
+}

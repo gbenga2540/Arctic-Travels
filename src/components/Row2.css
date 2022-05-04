@@ -36,3 +36,44 @@
     margin-bottom: 70px;
     font-size: 35px;
 }
+
+@media only screen and (max-width:1200px) {
+    .row2_main {
+        max-width: 100vw;
+        min-height: 48vw;
+        background-color: #F8F9FC;
+        font-family: poppinsregular, sans-serif;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('../images/map.png');
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    
+    .row2_main > h2 {
+        font-size: 18px;
+        max-width: 65%;
+        max-height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    
+    .row2_main > h4 {
+        font-size: 10px;
+        max-width: 50%;
+        color: rgba(0, 0, 0, 0.5);
+        margin-left: auto;
+        margin-right: auto;
+        flex-grow: 1;
+    }
+    
+    .row2_main > h3 {
+        margin-bottom: 70px;
+        font-size: 17px;
+    }
+}

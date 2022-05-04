@@ -37,3 +37,47 @@
     color: #3E86F5;
     transform: scale(1.035);
 }
+
+@media only screen and (max-width:1200px) {
+    .row5_main {
+        max-width: 100vw;
+        min-height: 52vw;
+        font-family: poppinsregular, sans-serif;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: center;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images//attractive-snowboarder.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .row5_main h1 {
+        font-size: 15px;
+        max-width: 70%;
+        transform: translateY(-50px);
+        max-height: 20px;
+        margin-top: 20px;
+    }
+    
+    .row5_main button {
+        margin-top: 10px;
+        color: #fff;
+        background-color: #3E86F5;
+        width: 60px;
+        height: 20px;
+        max-height: 20px;
+        font-weight: 400;
+        font-size: 6px;
+        border-radius: 6px;
+        border: none;
+        transition: all 150ms ease-in-out;
+    }
+    
+    .row5_main button:hover {
+        background-color: #fff;
+        color: #3E86F5;
+        transform: scale(1.035);
+    }
+}

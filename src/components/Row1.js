@@ -19,7 +19,7 @@ const Row1 = () => {
           <div className='row1_img_header'>
             <img src={arcticlogo} alt={'arctic-logo'}/>
             <h2>Arctic Travels</h2>
-            <div>
+            <div className='row1_img_header_inner'>
               <p>About Us</p>
               <p>Support</p>
               <p>Language</p>
