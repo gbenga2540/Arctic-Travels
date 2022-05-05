@@ -51,6 +51,57 @@
 @media only screen and (max-width:1200px) {
     .dets_main {
         min-width: 65px;
+        min-height: 100%;
+        max-height: 100%;
+        flex-grow: 1;
+        font-family: poppinsregular, sans-serif;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .dets_main_top {
+        display: flex;
+        color: #929191;
+        align-items: center;
+    }
+    .dets_main_top > p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .dets_main_top > img {
+        margin-right: 5px;
+        max-height: 16px;
+        max-width: 16px;
+    }
+    
+    .dets_main_bottom {
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 0px;
+        align-items: center;
+    }
+    
+    .dets_main_bottom > p {
+        margin-right: 5px;
+        font-size: 11px;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .dets_main_bottom > img {
+        max-height: 10px;
+        max-width: 10px;
+    }
+}
+
+
+@media only screen and (max-width:720px) {
+    .dets_main {
+        min-width: 65px;
         max-height: 100%;
         flex-grow: 1;
         font-family: poppinsregular, sans-serif;
