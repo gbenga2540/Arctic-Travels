@@ -85,7 +85,7 @@
 
 @media only screen and (max-width:720px) {
     .row5_main {
-        max-width: 100vw;
+        max-width: 100%;
         min-height: 52vw;
         font-family: poppinsregular, sans-serif;
         color: #fff;

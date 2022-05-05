@@ -99,6 +99,7 @@
         background-size: contain;
         border-radius: 7px;
         margin-top: 9px;
+        min-height: 200px;
         color: white;
         display: flex;
         flex-direction: column;

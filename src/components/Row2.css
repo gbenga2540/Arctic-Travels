@@ -83,7 +83,7 @@
 
 @media only screen and (max-width:720px) {
     .row2_main {
-        max-width: 100vw;
+        max-width: 100%;
         min-height: 48vw;
         background-color: #F8F9FC;
         font-family: poppinsregular, sans-serif;
