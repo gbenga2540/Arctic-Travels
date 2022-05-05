@@ -6,3 +6,27 @@
     display: flex;
     flex-direction: row;
 }
+
+@media only screen and (max-width:1200px) {
+    .row3_main {
+        max-width: 100%;
+        min-height: 71vw;
+        height: 800px;
+        font-family: poppinsregular, sans-serif;
+        color: black;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .row3_main {
+        max-width: 100%;
+        min-height: 71vw;
+        height: 300px;
+        font-family: poppinsregular, sans-serif;
+        color: black;
+        display: flex;
+        flex-direction: row;
+    }
+}

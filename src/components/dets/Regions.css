@@ -11,7 +11,7 @@
 }
 
 .regions_text {
-    position: absolute;
+    position: relative;
     writing-mode: vertical-lr;
     transform: rotateZ(180deg);
     margin: 0;
@@ -35,7 +35,7 @@
     }
     
     .regions_text {
-        position: absolute;
+        position: relative;
         writing-mode: vertical-lr;
         transform: rotateZ(180deg);
         margin: 0;
@@ -60,7 +60,7 @@
     }
     
     .regions_text {
-        position: absolute;
+        position: relative;
         writing-mode: vertical-lr;
         transform: rotateZ(180deg);
         margin: 0;
