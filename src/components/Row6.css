@@ -132,7 +132,7 @@
     }
     .r6_col1 img {
         width: 18px;
-        width: 18px;
+        height: 18px;
         padding: 8px;
         aspect-ratio: 1;
         border: 1px solid #3e87f581;
@@ -272,7 +272,7 @@
         cursor: pointer;
         margin-right: 7px;
         width: 7px;
-        width: 7px;
+        height: 7px;
         aspect-ratio: 1;
     }
     
