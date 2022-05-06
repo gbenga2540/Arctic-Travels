@@ -27,6 +27,7 @@
 .r6_col1 img {
     width: 25px;
     padding: 17px;
+    height: 25px;
     aspect-ratio: 1;
     border: 1px solid #3e87f581;
     border-style: dashed;
@@ -50,6 +51,7 @@
     cursor: pointer;
     margin-right: 25px;
     width: 20px;
+    height: 20px;
     aspect-ratio: 1;
 }
 
@@ -130,6 +132,7 @@
     }
     .r6_col1 img {
         width: 18px;
+        width: 18px;
         padding: 8px;
         aspect-ratio: 1;
         border: 1px solid #3e87f581;
@@ -156,6 +159,7 @@
         cursor: pointer;
         margin-right: 12px;
         width: 13px;
+        height: 13px;
         aspect-ratio: 1;
     }
     
@@ -240,6 +244,7 @@
         margin-right: 0px;
     }
     .r6_col1 img {
+        height: 9px;
         width: 9px;
         padding: 5px;
         aspect-ratio: 1;
@@ -266,6 +271,7 @@
     .r6_col1 div > img {
         cursor: pointer;
         margin-right: 7px;
+        width: 7px;
         width: 7px;
         aspect-ratio: 1;
     }
